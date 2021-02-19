@@ -1,0 +1,86 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 05.01.2021 08:53
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.3.40.1
+WORDPRESS:	5.6
+PHP INFO:	7.4.5 | SAPI: apache2handler
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (1536M default) 
+MEMORY STACK: 2MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+SQL CREATED: 20210105_timberhouse_37e4aef516ca6c0e5609_20210105085258_database.sql
+SQL FILE SIZE: 842.08KB (862288)
+SQL FILE TIME: 2021-01-05 08:53:48
+SQL RUNTIME: 5.51 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  C:/Users/Ditras228/Downloads/OpenServer/domains/timber-house
+ARCHIVE FILE: 20210105_timberhouse_37e4aef516ca6c0e5609_20210105085258_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	92.64MB
+STATS:	Dirs 387 | Files 2,921
+SQL ADDED: 20210105_timberhouse_37e4aef516ca6c0e5609_20210105085258_database.sql
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 3308
+    [filename] => C:\Users\Ditras228\Downloads\OpenServer\domains\timber-house\wp-content\backups-dup-lite\tmp\20210105_timberhouse_37e4aef516ca6c0e5609_20210105085258_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 3307
+[PHP ERR][NOTICE] MSG:ob_flush(): failed to flush buffer. No buffer to flush [CODE:8|FILE:C:\Users\Ditras228\Downloads\OpenServer\domains\timber-house\wp-content\plugins\duplicator\classes\utilities\class.u.php|LINE:171]
+do_action('wp_ajax_duplicator_package_build'), WP_Hook->do_action, WP_Hook->apply_filters, duplicator_package_build, DUP_Package->runZipBuild, DUP_Archive->build, DUP_Zip::create, DUP_Util::fcgiFlush, ob_flush, DUP_Handler::error, DUP_Handler::getMessage
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 47.85MB
+ARCHIVE RUNTIME: 53.15 sec.
+MEMORY STACK: 2MB
+building installer
+add_extra_files1
+add_extra_files2
+add_extra_files3
+add_extra_files4
+Doing archive file check
+add_extra_files5
+add_extra_files6
+add_extra_files8
+Successfully opened zip C:/Users/Ditras228/Downloads/OpenServer/domains/timber-house/wp-content/backups-dup-lite/tmp/20210105_timberhouse_37e4aef516ca6c0e5609_20210105085258_archive.zip
+Adding enhanced installer files to archive using ZipArchive
+Installer files added to archive
+Added to archive
+After ziparchive close when adding installer
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 842.08KB
+INSTALLER FILE: 61.29KB
+ARCHIVE FILE: 49.34MB 
+EXPECTED FILE/DIRECTORY COUNT: 3,308
+ACTUAL FILE/DIRECTORY COUNT: 3,307
+ТЕСТ ЛОГИКИ АРХИВА: Пройден
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 63.05 sec.
+PEAK PHP MEMORY USED: 4MB
+DONE PROCESSING => 20210105_timberhouse 05.01.2021 08:54
+
